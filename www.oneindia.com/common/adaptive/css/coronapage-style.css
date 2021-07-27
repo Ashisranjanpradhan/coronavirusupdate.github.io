@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    display: block;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.covid-banner {
+    position: relative;
+    background: url(/images/banner.png) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+}
+
+.covid-logo-blog .covid-logo {
+    float: left;
+    width: 353px;
+}
+
+.covid-logo img {
+    width: 100%;
+    display: block;
+}
+
+.covid-logo-blog .covid-oneindia-logo {
+    float: left;
+    width: 235px;
+    margin-right: 135px;
+}
+
+.covid-oneindia-logo img {
+    width: 100%;
+    display: block;
+}
+
+.covid-logo-blog {
+    padding: 20px 0px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.covid-content-section {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.covid-table-blog .covid-table-lt {
+    float: left;
+    width: 48%;
+}
+
+.covid-table-lt img {
+    width: 100%;
+    display: block;
+}
+
+.covid-table-blog .covid-contact-rt {
+    float: right;
+    width: 48%;
+}
+
+.contact-in-bg {
+    position: relative;
+    background: url(/images/contact-bg.png) no-repeat top center;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+    ;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-in-bg .hlp-line-txt {
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 3px;
+}
+
+.contact-in-bg .hlp-line-no {
+    font-size: 54px;
+    color: #fff;
+    padding-bottom: 0px;
+    font-weight: 900;
+}
+
+.contact-in-bg .toll-free {
+    font-size: 50px;
+    color: #fff;
+    padding-bottom: 0px;
+    font-weight: 900;
+}
+
+.toll-free span {
+    color: #650002;
+}
+
+.covid-email {
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    padding-left: 45px;
+}
+
+.covid-email::before {
+    position: absolute;
+    background: url(/images/nsg1.png) no-repeat;
+    width: 58px;
+    height: 45px;
+    content: "";
+    left: 6px;
+    top: 8px;
+}
+
+.covid-table-blog {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.covid-accord {
+    font-size: 30px;
+}
+
+.covid-accord .accord-head {
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+.covid-tab {
+    width: 100%;
+    overflow: hidden;
+    margin: 15px 0px;
+    border: 1px solid #dbdbdb;
+}
+
+.covid-tab input {
+    width: auto;
+}
+
+.covid-tablabel ::after {
+    background: url(/images/right-arrow2.png) no-repeat 0 0;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    color: #fff;
+    transition: all .35s;
+    left: 14px;
+    font-size: 27px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    content: '';
+}
+
+.covid-tablabel {
+    display: flex;
+    padding: 1em;
+    background: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    padding-left: 60px;
+    font-size: 16px;
+    color: #000000;
+    position: relative;
+}
+
+.covid-tablabel a {
+    color: #066cc0;
+    text-decoration: none;
+}
+
+.covid-acc-cont {
+    display: none;
+    padding: 20px 20px 30px 20px;
+    margin-top: 5px;
+}
+
+input:checked~.covid-acc-cont {
+    height: auto;
+    padding: 20px 20px 30px 20px;
+    margin-top: 5px;
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.covid-acc-cont .cov-info {
+    font-size: 14px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.cov-pr-mes .mes-head {
+    font-size: 16px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cov-pr-mes .mes-info {
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.med-usge-wrng .usage-lt {
+    float: left;
+    width: 55px;
+    margin-top: 10px;
+}
+
+.usage-lt img {
+    width: 100%;
+    display: block;
+}
+
+.med-usge-wrng .usage-info-rt {
+    margin-left: 100px;
+    padding-top: 16px;
+}
+
+.med-usge-wrng {
+    background: #f6f6f6;
+    padding: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border-left: 5px solid #5eb2db;
+}
+
+.covid-footer {
+    background: #26293c;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.footer-icon-list ul li {
+    float: left;
+    width: 24%;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.twitter::before {
+    background: url(/images/twitter1.png) no-repeat 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    color: #fff;
+    transition: all .35s;
+    left: 14px;
+    font-size: 27px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    content: '';
+}
+
+.youtube::before {
+    background: url(/images/youtube1.png) no-repeat 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    color: #fff;
+    transition: all .35s;
+    left: 14px;
+    font-size: 27px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    content: '';
+}
+
+.covid-icon {
+    margin-left: 68px;
+    color: #fff;
+}
+
+.facebook::before {
+    background: url(/images/facebook2.png) no-repeat 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    color: #fff;
+    transition: all .35s;
+    left: 14px;
+    font-size: 27px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    content: '';
+}
+
+.who::before {
+    background: url(/images/who.png) no-repeat 0 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    color: #fff;
+    transition: all .35s;
+    left: 14px;
+    font-size: 27px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    content: '';
+}
+
+.covid-accord {
+    margin-bottom: 10px;
+}
+
+.lightbox-popup-videos-wrapper {
+    display: none;
+}
+
+.bd-video-popup {
+    display: none;
+}
+
+.footer-icon-list ul li a {
+    text-decoration: none;
+}
+
+.site-logo {
+    height: 50px !important;
+}
+
+.covid-logo-blog .covid-helpline-contact {
+    float: right;
+    width: 300px;
+    display: block;
+    text-align: left;
+    line-height: 33px;
+    margin-top: -10px;
+}
+
+.covid-helpline-contact .hlp-line-txt {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 3px;
+}
+
+.covid-helpline-contact .hlp-line-no {
+    font-size: 28px;
+    color: #fff;
+    padding-bottom: 0px;
+    font-weight: 900;
+}
+
+.covid-helpline-contact .toll-free {
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 0px;
+    font-weight: 900;
+}
+
+.toll-free span {
+    color: #bee300;
+}
+
+.covid-video {
+    width: 100%;
+    display: block;
+}
+
+.covid-video img {
+    width: 100%;
+    display: block;
+    height: 295px;
+}
+
+.corona-widget-wrap-large {
+    margin: 0 !important;
+}
+
+.vuukle-powerbar {
+    padding-top: 10px;
+}
